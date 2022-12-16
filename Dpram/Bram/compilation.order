@@ -1,0 +1,2 @@
+.\src\dual_port_ram.vhd
+.\src\TestBench\dual_port_ram_TB.vhd

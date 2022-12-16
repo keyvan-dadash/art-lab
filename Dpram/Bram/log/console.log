@@ -1,0 +1,390 @@
+# Design: Design Bram already active.
+# 
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -work Bram -2002  $dsn/src/dual_port_ram.vhd
+# Compile with File Reorder...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\bram\Bram\src\dual_port_ram.vhd
+# Compile Entity "dual_port_ram"
+# Compile Architecture "Behavioral" of Entity "dual_port_ram"
+# Top-level unit(s) detected:
+# Entity => dual_port_ram
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -work Bram -2002  $dsn/src/TestBench/dual_port_ram_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\bram\Bram\src\TestBench\dual_port_ram_TB.vhd
+# Compile Entity "dual_port_ram_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "dual_port_ram_tb"
+# Error: COMP96_0367: dual_port_ram_TB.vhd : (71, 21): Improper array length (8). Expected length is 32.
+# Error: COMP96_0367: dual_port_ram_TB.vhd : (72, 23): Improper array length (4). Expected length is 10.
+# Error: COMP96_0078: dual_port_ram_TB.vhd : (77, 25): Unknown identifier "conv_std_logic_vector".
+# Error: COMP96_0133: dual_port_ram_TB.vhd : (77, 25): Cannot find object declaration.
+# Error: COMP96_0289: dual_port_ram_TB.vhd : (77, 25): Prefix of index must be an array.
+# Error: COMP96_0077: dual_port_ram_TB.vhd : (77, 25): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: dual_port_ram_TB.vhd : (78, 27): Unknown identifier "conv_std_logic_vector".
+# Error: COMP96_0133: dual_port_ram_TB.vhd : (78, 27): Cannot find object declaration.
+# Error: COMP96_0289: dual_port_ram_TB.vhd : (78, 27): Prefix of index must be an array.
+# Error: COMP96_0077: dual_port_ram_TB.vhd : (78, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: dual_port_ram_TB.vhd : (86, 27): Unknown identifier "conv_std_logic_vector".
+# Error: COMP96_0133: dual_port_ram_TB.vhd : (86, 27): Cannot find object declaration.
+# Error: COMP96_0289: dual_port_ram_TB.vhd : (86, 27): Prefix of index must be an array.
+# Error: COMP96_0077: dual_port_ram_TB.vhd : (86, 27): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile Configuration "TESTBENCH_FOR_dual_port_ram"
+# Error: COMP96_0209: dual_port_ram_TB.vhd : (96, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 15 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work Bram -2002  $dsn/src/TestBench/dual_port_ram_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\bram\Bram\src\TestBench\dual_port_ram_TB.vhd
+# Compile Entity "dual_port_ram_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "dual_port_ram_tb"
+# Error: COMP96_0367: dual_port_ram_TB.vhd : (72, 21): Improper array length (8). Expected length is 32.
+# Error: COMP96_0367: dual_port_ram_TB.vhd : (73, 23): Improper array length (4). Expected length is 10.
+# Compile Configuration "TESTBENCH_FOR_dual_port_ram"
+# Error: COMP96_0209: dual_port_ram_TB.vhd : (97, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -work Bram -2002  $dsn/src/TestBench/dual_port_ram_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\bram\Bram\src\TestBench\dual_port_ram_TB.vhd
+# Compile Entity "dual_port_ram_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "dual_port_ram_tb"
+# Error: COMP96_0367: dual_port_ram_TB.vhd : (72, 21): Improper array length (8). Expected length is 32.
+# Error: COMP96_0367: dual_port_ram_TB.vhd : (73, 23): Improper array length (4). Expected length is 10.
+# Compile Configuration "TESTBENCH_FOR_dual_port_ram"
+# Error: COMP96_0209: dual_port_ram_TB.vhd : (97, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -work Bram -2002  $dsn/src/TestBench/dual_port_ram_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\bram\Bram\src\TestBench\dual_port_ram_TB.vhd
+# Compile Entity "dual_port_ram_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "dual_port_ram_tb"
+# Error: COMP96_0367: dual_port_ram_TB.vhd : (72, 21): Improper array length (24). Expected length is 32.
+# Compile Configuration "TESTBENCH_FOR_dual_port_ram"
+# Error: COMP96_0209: dual_port_ram_TB.vhd : (97, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -work Bram -2002  $dsn/src/TestBench/dual_port_ram_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\bram\Bram\src\TestBench\dual_port_ram_TB.vhd
+# Compile Entity "dual_port_ram_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "dual_port_ram_tb"
+# Compile Configuration "TESTBENCH_FOR_dual_port_ram"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w dual_port_ram Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 10289 kB (elbread=1023 elab2=9174 kernel=91 sdf=0)
+#  3:15 AM, Wednesday, December 23, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: dual_port_ram (Behavioral)
+run 30000 ns
+# KERNEL: stopped at time: 30 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# add wave -noreg {/dual_port_ram/ram}
+# add wave -noreg {/dual_port_ram/clk}
+# add wave -noreg {/dual_port_ram/wr_en}
+# add wave -noreg {/dual_port_ram/data_in}
+# add wave -noreg {/dual_port_ram/addr_in_0}
+# add wave -noreg {/dual_port_ram/addr_in_1}
+# add wave -noreg {/dual_port_ram/port_en_0}
+# add wave -noreg {/dual_port_ram/port_en_1}
+# add wave -noreg {/dual_port_ram/data_out_0}
+# add wave -noreg {/dual_port_ram/data_out_1}
+run 30000 ns
+# KERNEL: stopped at time: 60 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+#  Simulation has been stopped
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w dual_port_ram Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 10289 kB (elbread=1023 elab2=9174 kernel=91 sdf=0)
+#  3:15 AM, Wednesday, December 23, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: dual_port_ram (Behavioral)
+run 30000 ns
+# KERNEL: stopped at time: 30 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -work Bram -2002  $dsn/src/TestBench/dual_port_ram_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\bram\Bram\src\TestBench\dual_port_ram_TB.vhd
+# Compile Entity "dual_port_ram_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "dual_port_ram_tb"
+# Compile Configuration "TESTBENCH_FOR_dual_port_ram"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+endsim
+#  Simulation has been stopped
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w dual_port_ram Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 10289 kB (elbread=1023 elab2=9174 kernel=91 sdf=0)
+#  3:17 AM, Wednesday, December 23, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: dual_port_ram (Behavioral)
+run 30000 ns
+# KERNEL: stopped at time: 30 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+#  Simulation has been stopped
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w dual_port_ram Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 10289 kB (elbread=1023 elab2=9174 kernel=91 sdf=0)
+#  3:18 AM, Wednesday, December 23, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: dual_port_ram (Behavioral)
+run 30000 ns
+# KERNEL: stopped at time: 30 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -work Bram -2002  $dsn/src/TestBench/dual_port_ram_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\bram\Bram\src\TestBench\dual_port_ram_TB.vhd
+# Compile Entity "dual_port_ram_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "dual_port_ram_tb"
+# Compile Configuration "TESTBENCH_FOR_dual_port_ram"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w dual_port_ram_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 10292 kB (elbread=1023 elab2=9177 kernel=91 sdf=0)
+#  3:19 AM, Wednesday, December 23, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: dual_port_ram_tb (TB_ARCHITECTURE)
+run 30000 ns
+# KERNEL: stopped at time: 30 us
+# add wave -noreg {/dual_port_ram_tb/clk}
+# add wave -noreg {/dual_port_ram_tb/wr_en}
+# add wave -noreg {/dual_port_ram_tb/data_in}
+# add wave -noreg {/dual_port_ram_tb/addr_in_0}
+# add wave -noreg {/dual_port_ram_tb/addr_in_1}
+# add wave -noreg {/dual_port_ram_tb/port_en_0}
+# add wave -noreg {/dual_port_ram_tb/port_en_1}
+# add wave -noreg {/dual_port_ram_tb/data_out_0}
+# add wave -noreg {/dual_port_ram_tb/data_out_1}
+endsim
+#  Simulation has been stopped
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w dual_port_ram_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 10292 kB (elbread=1023 elab2=9177 kernel=91 sdf=0)
+#  3:20 AM, Wednesday, December 23, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: dual_port_ram_tb (TB_ARCHITECTURE)
+run 30000 ns
+# KERNEL: stopped at time: 30 us
+acom -O3 -work Bram -2002  $dsn/src/dual_port_ram.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\bram\Bram\src\dual_port_ram.vhd
+# Compile Entity "dual_port_ram"
+# Compile Architecture "Behavioral" of Entity "dual_port_ram"
+# Error: COMP96_0078: dual_port_ram.vhd : (30, 34): Unknown identifier "addr_in_0".
+# Error: COMP96_0133: dual_port_ram.vhd : (30, 34): Cannot find object declaration.
+# Error: COMP96_0104: dual_port_ram.vhd : (30, 34): Undefined type of expression.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work Bram -2002  $dsn/src/dual_port_ram.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\bram\Bram\src\dual_port_ram.vhd
+# Compile Entity "dual_port_ram"
+# Compile Architecture "Behavioral" of Entity "dual_port_ram"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -work Bram -2002  $dsn/src/TestBench/dual_port_ram_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\bram\Bram\src\TestBench\dual_port_ram_TB.vhd
+# Compile Entity "dual_port_ram_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "dual_port_ram_tb"
+# Error: COMP96_0078: dual_port_ram_TB.vhd : (48, 10): Unknown identifier "wr_en".
+# Error: COMP96_0078: dual_port_ram_TB.vhd : (49, 10): Unknown identifier "data_in".
+# Error: COMP96_0078: dual_port_ram_TB.vhd : (50, 12): Unknown identifier "addr_in_0".
+# Error: COMP96_0078: dual_port_ram_TB.vhd : (51, 13): Unknown identifier "addr_in_1".
+# Error: COMP96_0078: dual_port_ram_TB.vhd : (52, 10): Unknown identifier "port_en_0".
+# Error: COMP96_0078: dual_port_ram_TB.vhd : (53, 11): Unknown identifier "port_en_1".
+# Error: COMP96_0078: dual_port_ram_TB.vhd : (54, 18): Unknown identifier "data_out_0".
+# Error: COMP96_0078: dual_port_ram_TB.vhd : (55, 18): Unknown identifier "data_out_1".
+# Error: COMP96_0078: dual_port_ram_TB.vhd : (54, 4): Unknown identifier "data_out_0".
+# Error: COMP96_0078: dual_port_ram_TB.vhd : (55, 4): Unknown identifier "data_out_1".
+# Error: COMP96_0133: dual_port_ram_TB.vhd : (48, 10): Cannot find object declaration.
+# Error: COMP96_0133: dual_port_ram_TB.vhd : (49, 10): Cannot find object declaration.
+# Error: COMP96_0133: dual_port_ram_TB.vhd : (50, 12): Cannot find object declaration.
+# Error: COMP96_0133: dual_port_ram_TB.vhd : (51, 13): Cannot find object declaration.
+# Error: COMP96_0133: dual_port_ram_TB.vhd : (52, 10): Cannot find object declaration.
+# Error: COMP96_0133: dual_port_ram_TB.vhd : (53, 11): Cannot find object declaration.
+# Error: COMP96_0133: dual_port_ram_TB.vhd : (54, 4): Cannot find object declaration.
+# Error: COMP96_0112: dual_port_ram_TB.vhd : (54, 4): "data_out_0" does not match the formal name.
+# Error: COMP96_0104: dual_port_ram_TB.vhd : (48, 4): Undefined type of expression.
+# Error: COMP96_0104: dual_port_ram_TB.vhd : (49, 4): Undefined type of expression.
+# Error: COMP96_0104: dual_port_ram_TB.vhd : (50, 4): Undefined type of expression.
+# Error: COMP96_0104: dual_port_ram_TB.vhd : (51, 4): Undefined type of expression.
+# Error: COMP96_0104: dual_port_ram_TB.vhd : (52, 4): Undefined type of expression.
+# Error: COMP96_0104: dual_port_ram_TB.vhd : (53, 4): Undefined type of expression.
+# Compile Configuration "TESTBENCH_FOR_dual_port_ram"
+# Error: ELAB1_0011: dual_port_ram_TB.vhd : (97, 0): Port "we" is on entity "dual_port_ram" but not on the component declaration.
+# Error: ELAB1_0011: dual_port_ram_TB.vhd : (97, 0): Port "oe" is on entity "dual_port_ram" but not on the component declaration.
+# Error: ELAB1_0011: dual_port_ram_TB.vhd : (97, 0): Port "oe1" is on entity "dual_port_ram" but not on the component declaration.
+# Error: ELAB1_0011: dual_port_ram_TB.vhd : (97, 0): Port "addr" is on entity "dual_port_ram" but not on the component declaration.
+# Error: ELAB1_0011: dual_port_ram_TB.vhd : (97, 0): Port "addr1" is on entity "dual_port_ram" but not on the component declaration.
+# Error: ELAB1_0011: dual_port_ram_TB.vhd : (97, 0): Port "di" is on entity "dual_port_ram" but not on the component declaration.
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (97, 0): Port "wr_en" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (97, 0): Port "data_in" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (97, 0): Port "addr_in_0" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (97, 0): Port "addr_in_1" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (97, 0): Port "port_en_0" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (97, 0): Port "port_en_1" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (97, 0): Port "data_out_0" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (97, 0): Port "data_out_1" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Error: COMP96_0203: dual_port_ram_TB.vhd : (98, 4): Binding indication has neither a generic map aspect nor a port map aspect.
+# Error: ELAB1_0011: dual_port_ram_TB.vhd : (98, 0): Port "we" is on entity "dual_port_ram" but not on the component declaration.
+# Error: ELAB1_0011: dual_port_ram_TB.vhd : (98, 0): Port "oe" is on entity "dual_port_ram" but not on the component declaration.
+# Error: ELAB1_0011: dual_port_ram_TB.vhd : (98, 0): Port "oe1" is on entity "dual_port_ram" but not on the component declaration.
+# Error: ELAB1_0011: dual_port_ram_TB.vhd : (98, 0): Port "addr" is on entity "dual_port_ram" but not on the component declaration.
+# Error: ELAB1_0011: dual_port_ram_TB.vhd : (98, 0): Port "addr1" is on entity "dual_port_ram" but not on the component declaration.
+# Error: ELAB1_0011: dual_port_ram_TB.vhd : (98, 0): Port "di" is on entity "dual_port_ram" but not on the component declaration.
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (98, 0): Port "wr_en" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (98, 0): Port "data_in" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (98, 0): Port "addr_in_0" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (98, 0): Port "addr_in_1" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (98, 0): Port "port_en_0" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (98, 0): Port "port_en_1" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (98, 0): Port "data_out_0" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Error: ELAB1_0030: dual_port_ram_TB.vhd : (98, 0): Port "data_out_1" is on component "dual_port_ram" but not on the entity "dual_port_ram".
+# Compile failure 53 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -work Bram -2002  $dsn/src/TestBench/dual_port_ram_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\bram\Bram\src\TestBench\dual_port_ram_TB.vhd
+# Compile Entity "dual_port_ram_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "dual_port_ram_tb"
+# Compile Configuration "TESTBENCH_FOR_dual_port_ram"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+endsim
+#  Simulation has been stopped
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w dual_port_ram_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 10292 kB (elbread=1023 elab2=9177 kernel=91 sdf=0)
+#  3:30 AM, Wednesday, December 23, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: dual_port_ram_tb (TB_ARCHITECTURE)
+# Signal /dual_port_ram_tb/wr_en not found in design.
+# Signal /dual_port_ram_tb/data_in not found in design.
+# Signal /dual_port_ram_tb/addr_in_0 not found in design.
+# Signal /dual_port_ram_tb/addr_in_1 not found in design.
+# Signal /dual_port_ram_tb/port_en_0 not found in design.
+# Signal /dual_port_ram_tb/port_en_1 not found in design.
+# Signal /dual_port_ram_tb/data_out_0 not found in design.
+# Signal /dual_port_ram_tb/data_out_1 not found in design.
+run 30000 ns
+# KERNEL: stopped at time: 30 us
+#  Simulation has been stopped

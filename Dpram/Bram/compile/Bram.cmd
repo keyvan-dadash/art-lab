@@ -1,0 +1,1 @@
+-w -s "d:\fucking uni\Fucking_CA_Lab\sh\bram\library.cfg"  -j "d:\fucking uni\Fucking_CA_Lab\sh\bram\Bram\projlib.cfg"  -d "d:\fucking uni\Fucking_CA_Lab\sh\bram\Bram\compile"   -work Bram  -O3 -e 100 -2002 "d:\fucking uni\Fucking_CA_Lab\sh\bram\Bram\src\TestBench\dual_port_ram_TB.vhd"

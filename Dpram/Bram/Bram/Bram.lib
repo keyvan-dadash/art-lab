@@ -1,0 +1,46 @@
+timestamp=1608723033758
+
+[dual_port_ram]
+A/behavioral=A/Behavioral 21|./../src/dual_port_ram.vhd|18|1*18163
+BinI32/behavioral=3*2076
+I=0*11944
+I/behavioral=I/Behavioral 0*12713
+M=11|0|va7|1608722860069|./../src/dual_port_ram.vhd|0*11376*0xed0c9ee0f52c2c10135158aaa2c45254178e2a23|0*11854*0xab32bc1a2daf049573e14469f634e0e6
+M/behavioral=M/Behavioral 21|0|va7|1608722870637|./../src/dual_port_ram.vhd|0*12120*0xc65e51ee0c83ce4d0d3f6a8f9359c28a319be3c5|0*12609*0xb33770ff1c10522f9491560174ac8e6c
+R=./../src/dual_port_ram.vhd|5
+Version=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavioral=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+
+[dual_port_ram_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/dual_port_ram_TB.vhd|11|1*21278
+BinI32/tb_architecture=3*2988
+I=0*2920
+I/tb_architecture=I/TB_ARCHITECTURE 0*14463
+M=11|0|va7|1608721927596|./../src/TestBench/dual_port_ram_TB.vhd|0*2551*0xe5336f568d01f3f92e4e0e700d8d827cfabd33a9|0*2814*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|va7|1608723033504|./../src/TestBench/dual_port_ram_TB.vhd|0*12900*0xe69eebed561dc51d61a587abd6b34ea253579777|0*14338*0xb33770ff1c10522f9491560174ac8e6c
+R=./../src/TestBench/dual_port_ram_TB.vhd|8
+Version=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+Version/tb_architecture=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+
+[testbench_for_dual_port_ram]
+Configures=dual_port_ram_tb.TB_ARCHITECTURE
+E=1*25829
+I=0*8585
+M=2|0|va7|1608723033530|./../src/TestBench/dual_port_ram_TB.vhd|0*8122*0x7d49a6a1eaf055293bfe83fa2a081e671bdbde4a|0*8449*0xb33770ff1c10522f9491560174ac8e6c
+R=./../src/TestBench/dual_port_ram_TB.vhd|95
+Version=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+
+[~A]
+ModifyID=46
+Version=73
+
+[~MFT]
+0=62|0Bram.mgf|14463|9526
+1=16|1Bram.mgf|25829|18163
+3=9|3Bram.mgf|2988|2076
+
+[~U]
+dual_port_ram=11|0*11011|
+dual_port_ram_tb=11|0*2457|
+testbench_for_dual_port_ram=TESTBENCH_FOR_dual_port_ram 2||
+

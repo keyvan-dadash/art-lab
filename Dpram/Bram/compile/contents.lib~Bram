@@ -1,0 +1,6 @@
+46
+~E 1 "./../src/dual_port_ram.vhd" 5 dual_port_ram
+~A 1 "./../src/dual_port_ram.vhd" 18 Behavioral
+~E 1 "./../src/TestBench/dual_port_ram_TB.vhd" 8 dual_port_ram_tb
+~A 1 "./../src/TestBench/dual_port_ram_TB.vhd" 11 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/dual_port_ram_TB.vhd" 95 testbench_for_dual_port_ram
