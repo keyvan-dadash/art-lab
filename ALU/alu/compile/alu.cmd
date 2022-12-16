@@ -1,0 +1,1 @@
+-w -s "d:\fucking uni\Fucking_CA_Lab\sh\art_lu\library.cfg"  -j "d:\fucking uni\Fucking_CA_Lab\sh\art_lu\alu\projlib.cfg"  -d "d:\fucking uni\Fucking_CA_Lab\sh\art_lu\alu\compile"   -work alu  -O3 -e 100 -2002 "d:\fucking uni\Fucking_CA_Lab\sh\art_lu\alu\src\TestBench\alu_TB.vhd"

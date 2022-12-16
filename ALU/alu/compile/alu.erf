@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: d:\fucking uni\Fucking_CA_Lab\sh\art_lu\alu\src\TestBench\alu_TB.vhd" 
+MESSAGE "Compile Entity "alu_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_alu"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]" 

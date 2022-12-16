@@ -1,0 +1,6 @@
+87
+~E 1 "./../src/alu.vhd" 6 alu
+~A 1 "./../src/alu.vhd" 19 Behavioral
+~E 1 "./../src/TestBench/alu_TB.vhd" 9 alu_tb
+~A 1 "./../src/TestBench/alu_TB.vhd" 15 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/alu_TB.vhd" 130 testbench_for_alu
