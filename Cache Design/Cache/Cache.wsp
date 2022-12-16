@@ -1,0 +1,22 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Cache=1
+Built-in symbols=0
+
+[COMPILESTATUS|.\src\hw_cache.vhd]
+FileTimeLow=30859579
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\Cache\Cache.adf|]
+Path=
+
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\Cache\src\hw_cache.vhd|]
+CurrentLine=27
+CurrentColumn=43
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+

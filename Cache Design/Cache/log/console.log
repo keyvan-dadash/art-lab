@@ -1,0 +1,100 @@
+# Design: Design Cache already active.
+# 
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -work Cache -2002  $dsn/src/hw_cache.vhd
+# Compile with File Reorder...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\cache\Cache\src\hw_cache.vhd
+# Compile Entity "CACHE"
+# Compile Architecture "Behavioral" of Entity "CACHE"
+# Top-level unit(s) detected:
+# Entity => CACHE
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -work Cache -2002  $dsn/src/hw_cache.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\cache\Cache\src\hw_cache.vhd
+# Compile Entity "HW_CACHE"
+# Compile Architecture "Behavioral" of Entity "HW_CACHE"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work Cache -2002  $dsn/src/hw_cache.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\cache\Cache\src\hw_cache.vhd
+# Compile Entity "HW_CACHE"
+# Compile Architecture "Behavioral" of Entity "HW_CACHE"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work Cache -2002  $dsn/src/hw_cache.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\cache\Cache\src\hw_cache.vhd
+# Compile Entity "HW_CACHE"
+# Compile Architecture "Behavioral" of Entity "HW_CACHE"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work Cache -2002  $dsn/src/hw_cache.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\cache\Cache\src\hw_cache.vhd
+# Compile Entity "HW_CACHE"
+# Compile Architecture "Behavioral" of Entity "HW_CACHE"
+# Error: COMP96_0078: hw_cache.vhd : (52, 23): Unknown identifier "ind".
+# Error: COMP96_0133: hw_cache.vhd : (52, 23): Cannot find object declaration.
+# Error: COMP96_0138: hw_cache.vhd : (52, 23): The index types in the reference to the array object are incompatible with its range type.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work Cache -2002  $dsn/src/hw_cache.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\cache\Cache\src\hw_cache.vhd
+# Compile Entity "HW_CACHE"
+# Compile Architecture "Behavioral" of Entity "HW_CACHE"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -work Cache -2002  $dsn/src/hw_cache.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\cache\Cache\src\hw_cache.vhd
+# Compile Entity "HW_CACHE"
+# Compile Architecture "Behavioral" of Entity "HW_CACHE"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom -O3 -work Cache -2002  $dsn/src/hw_cache.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\cache\Cache\src\hw_cache.vhd
+# Compile Entity "HW_CACHE"
+# Compile Architecture "Behavioral" of Entity "HW_CACHE"
+# Error: COMP96_0078: hw_cache.vhd : (35, 24): Unknown identifier "blockoffset".
+# Error: COMP96_0078: hw_cache.vhd : (35, 52): Unknown identifier "blockoffset".
+# Error: COMP96_0133: hw_cache.vhd : (35, 24): Cannot find object declaration.
+# Error: COMP96_0094: hw_cache.vhd : (35, 20): Locally static expression is required in the range definition.
+# Error: COMP96_0133: hw_cache.vhd : (35, 52): Cannot find object declaration.
+# Error: COMP96_0094: hw_cache.vhd : (35, 49): Locally static expression is required in the range definition.
+# Error: COMP96_0078: hw_cache.vhd : (45, 28): Unknown identifier "blockoffset".
+# Error: COMP96_0078: hw_cache.vhd : (45, 56): Unknown identifier "blockoffset".
+# Error: COMP96_0133: hw_cache.vhd : (45, 28): Cannot find object declaration.
+# Error: COMP96_0094: hw_cache.vhd : (45, 24): Locally static expression is required in the range definition.
+# Error: COMP96_0133: hw_cache.vhd : (45, 56): Cannot find object declaration.
+# Error: COMP96_0094: hw_cache.vhd : (45, 53): Locally static expression is required in the range definition.
+# Error: COMP96_0078: hw_cache.vhd : (54, 28): Unknown identifier "blockoffset".
+# Error: COMP96_0078: hw_cache.vhd : (54, 56): Unknown identifier "blockoffset".
+# Error: COMP96_0133: hw_cache.vhd : (54, 28): Cannot find object declaration.
+# Error: COMP96_0094: hw_cache.vhd : (54, 24): Locally static expression is required in the range definition.
+# Error: COMP96_0133: hw_cache.vhd : (54, 56): Cannot find object declaration.
+# Error: COMP96_0094: hw_cache.vhd : (54, 53): Locally static expression is required in the range definition.
+# Compile failure 18 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work Cache -2002  $dsn/src/hw_cache.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\cache\Cache\src\hw_cache.vhd
+# Compile Entity "HW_CACHE"
+# Compile Architecture "Behavioral" of Entity "HW_CACHE"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -work Cache -2002  $dsn/src/hw_cache.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\cache\Cache\src\hw_cache.vhd
+# Compile Entity "HW_CACHE"
+# Compile Architecture "Behavioral" of Entity "HW_CACHE"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

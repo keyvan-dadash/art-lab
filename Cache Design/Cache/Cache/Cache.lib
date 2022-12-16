@@ -1,0 +1,37 @@
+timestamp=1609615074748
+
+[cache]
+A/behavioral=A/Behavioral 21|./../src/hw_cache.vhd|14|1*0
+BinI32/behavioral=3*0
+I=0*715
+I/behavioral=I/Behavioral 0*2271
+M=11|0|va7|1609632595159|./../src/hw_cache.vhd|0*269*0x885d58873106cbccfa8f027a456c80a8c092244b|0*638*0xab32bc1a2daf049573e14469f634e0e6
+M/behavioral=M/Behavioral 21|0|va7|1609632595165|./../src/hw_cache.vhd|0*883*0x3a924636b50d0d234dd152c4f27a57fd20019dff|0*2180*0xb33770ff1c10522f9491560174ac8e6c
+R=./../src/hw_cache.vhd|5
+Version=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavioral=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+
+[hw_cache]
+A/behavioral=A/Behavioral 21|./../src/hw_cache.vhd|14|1*26570
+BinI32/behavioral=3*1354
+I=0*5468
+I/behavioral=I/Behavioral 0*13244
+M=11|0|va7|1609632666551|./../src/hw_cache.vhd|0*5021*0xbd2dd7162d1cb3bc133a4df33a8d5dde99eb6940|0*5388*0xab32bc1a2daf049573e14469f634e0e6
+M/behavioral=M/Behavioral 21|0|va7|1609615074596|./../src/hw_cache.vhd|0*11943*0x93a13c136f7ab1a7b14907c5a59d88f278e614c8|0*13150*0xb33770ff1c10522f9491560174ac8e6c
+R=./../src/hw_cache.vhd|5
+Version=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavioral=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+
+[~A]
+ModifyID=50
+Version=73
+
+[~MFT]
+0=51|0Cache.mgf|13244|8608
+1=13|1Cache.mgf|26570|22700
+3=13|3Cache.mgf|1354|0
+
+[~U]
+cache=CACHE 11|0*0|
+hw_cache=HW_CACHE 11|0*4754|
+

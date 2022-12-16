@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: d:\fucking uni\Fucking_CA_Lab\sh\cache\Cache\src\hw_cache.vhd" 
+MESSAGE "Compile Entity "HW_CACHE"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "HW_CACHE"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

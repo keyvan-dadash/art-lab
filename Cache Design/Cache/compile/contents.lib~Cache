@@ -1,0 +1,5 @@
+50
+~E 1 "./../src/hw_cache.vhd" 5 CACHE
+~A 1 "./../src/hw_cache.vhd" 14 Behavioral
+~E 1 "./../src/hw_cache.vhd" 5 HW_CACHE
+~A 1 "./../src/hw_cache.vhd" 14 Behavioral

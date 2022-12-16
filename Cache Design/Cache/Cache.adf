@@ -1,0 +1,39 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=Cache
+[Library]
+Cache=.\Cache\Cache.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=1
+AccessACCB=1
+AccessACCR=1
+AccessReadWriteSLP=1
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=1
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+Cache=.
+Active_lib=
+[Files]
+/hw_cache.vhd=-1
+[Files.Data]
+.\src\hw_cache.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=cache|Behavioral|0 
+ShowHide=ShowTopLevel
+Selected=
