@@ -1,0 +1,56 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=Reg
+[Library]
+Reg=.\Reg\Reg.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=1
+AccessACCB=1
+AccessACCR=1
+AccessReadWriteSLP=1
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+WireDelay=2
+SimulationAccessReadModules=
+SimulationAccessReadWriteModules=
+SimulationAccessReadPaths=
+SimulationAccessReadWritePaths=
+SimulationAccessNetsPaths=
+SimulationAccessNetsModules=
+[LocalVerilogSets]
+EnableSLP=0
+EnableDebug=0
+MonitoringOfEventsUDP=0
+DisablePulseError=0
+HasInitialRegsValue=0
+InitialRegsValue=X
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+Reg=.
+Active_lib=
+[Files]
+/register32.vhd=-1
+TestBench/register32_TB.vhd=-1
+TestBench/register32_TB_runtest.do=-1
+[Files.Data]
+.\src\register32.vhd=VHDL Source Code
+.\src\TestBench\register32_TB.vhd=VHDL Test Bench
+.\src\TestBench\register32_TB_runtest.do=Macro
+[Groups]
+TestBench=1
+[HierarchyViewer]
+HierarchyInformation=register32|Behavioral|0 register32_tb|TB_ARCHITECTURE|0 
+ShowHide=ShowTopLevel
+Selected=

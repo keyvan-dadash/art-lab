@@ -1,0 +1,1168 @@
+# Design: Design Reg already active.
+# 
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile with File Reorder...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Top-level unit(s) detected:
+# Entity => register32
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Error: COMP96_0015: register32.vhd : (11, 9): ')' expected.
+# Error: COMP96_0015: register32.vhd : (11, 9): ';' expected.
+# Error: COMP96_0019: register32.vhd : (11, 11): Keyword 'end' expected.
+# Error: COMP96_0015: register32.vhd : (11, 11): ';' expected.
+# Error: COMP96_0016: register32.vhd : (11, 14): Design unit declaration expected.
+# Compile Architecture "Behavioral" of Entity "register32"
+# Warning: COMP96_0119: register32.vhd : (19, 19): The range is 'null range'.
+# Warning: COMP96_0564: register32.vhd : (20, 1): Shared variable is not of a protected type. (IEEE 1076-2002, 4.3.1.3)
+# Error: COMP96_0078: register32.vhd : (28, 11): Unknown identifier "to_integer".
+# Error: COMP96_0133: register32.vhd : (28, 11): Cannot find object declaration.
+# Error: COMP96_0123: register32.vhd : (28, 6): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: register32.vhd : (28, 6): Object "cell" may not be written
+# Error: COMP96_0289: register32.vhd : (28, 11): Prefix of index must be an array.
+# Error: COMP96_0138: register32.vhd : (28, 11): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0078: register32.vhd : (31, 17): Unknown identifier "RegWrite".
+# Error: COMP96_0133: register32.vhd : (31, 17): Cannot find object declaration.
+# Error: COMP96_0077: register32.vhd : (31, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: register32.vhd : (32, 23): Unknown identifier "to_integer".
+# Error: COMP96_0078: register32.vhd : (32, 34): Unknown identifier "writeReg".
+# Error: COMP96_0133: register32.vhd : (32, 34): Cannot find object declaration.
+# Error: COMP96_0133: register32.vhd : (32, 23): Cannot find object declaration.
+# Error: COMP96_0123: register32.vhd : (32, 18): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: register32.vhd : (32, 18): Object "cell" may not be written
+# Error: COMP96_0289: register32.vhd : (32, 23): Prefix of index must be an array.
+# Error: COMP96_0138: register32.vhd : (32, 23): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0078: register32.vhd : (32, 48): Unknown identifier "data".
+# Error: COMP96_0133: register32.vhd : (32, 48): Cannot find object declaration.
+# Error: COMP96_0077: register32.vhd : (32, 48): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: register32.vhd : (36, 4): Unknown identifier "read1".
+# Error: COMP96_0133: register32.vhd : (36, 4): Cannot find object declaration.
+# Error: COMP96_0078: register32.vhd : (36, 19): Unknown identifier "to_integer".
+# Error: COMP96_0078: register32.vhd : (36, 30): Unknown identifier "readReg1".
+# Error: COMP96_0133: register32.vhd : (36, 30): Cannot find object declaration.
+# Error: COMP96_0133: register32.vhd : (36, 19): Cannot find object declaration.
+# Error: COMP96_0078: register32.vhd : (37, 4): Unknown identifier "read2".
+# Error: COMP96_0133: register32.vhd : (37, 4): Cannot find object declaration.
+# Error: COMP96_0078: register32.vhd : (37, 19): Unknown identifier "to_integer".
+# Error: COMP96_0078: register32.vhd : (37, 30): Unknown identifier "readReg2".
+# Error: COMP96_0133: register32.vhd : (37, 30): Cannot find object declaration.
+# Error: COMP96_0133: register32.vhd : (37, 19): Cannot find object declaration.
+# Compile failure 37 Errors 2 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Warning: COMP96_0119: register32.vhd : (19, 19): The range is 'null range'.
+# Warning: COMP96_0564: register32.vhd : (20, 1): Shared variable is not of a protected type. (IEEE 1076-2002, 4.3.1.3)
+# Error: COMP96_0123: register32.vhd : (28, 6): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: register32.vhd : (28, 6): Object "cell" may not be written
+# Error: COMP96_0305: register32.vhd : (28, 11): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0138: register32.vhd : (28, 11): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0123: register32.vhd : (32, 18): Variable or constant cannot be the target of a signal assignment.
+# Error: COMP96_0143: register32.vhd : (32, 18): Object "cell" may not be written
+# Error: COMP96_0305: register32.vhd : (32, 23): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0138: register32.vhd : (32, 23): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0305: register32.vhd : (36, 19): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0138: register32.vhd : (36, 19): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0305: register32.vhd : (37, 19): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0138: register32.vhd : (37, 19): The index types in the reference to the array object are incompatible with its range type.
+# Compile failure 12 Errors 2 Warnings  Analysis time :  16.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `behavioral' of entity `Reg.register32' is not up-to-date. Please recompile file `d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd'.
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Error: COMP96_0020: register32.vhd : (20, 1): Variable can be declared only in a process or subprogram.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `behavioral' of entity `Reg.register32' is not up-to-date. Please recompile file `d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd'.
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Warning: COMP96_0119: register32.vhd : (19, 19): The range is 'null range'.
+# Error: COMP96_0305: register32.vhd : (28, 11): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0138: register32.vhd : (28, 11): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0305: register32.vhd : (32, 23): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0138: register32.vhd : (32, 23): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0305: register32.vhd : (36, 19): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0138: register32.vhd : (36, 19): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0305: register32.vhd : (37, 19): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0138: register32.vhd : (37, 19): The index types in the reference to the array object are incompatible with its range type.
+# Compile failure 8 Errors 1 Warnings  Analysis time :  0.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `behavioral' of entity `Reg.register32' is not up-to-date. Please recompile file `d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd'.
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Warning: COMP96_0119: register32.vhd : (19, 19): The range is 'null range'.
+# Error: COMP96_0305: register32.vhd : (28, 11): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0138: register32.vhd : (28, 11): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0305: register32.vhd : (36, 19): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0138: register32.vhd : (36, 19): The index types in the reference to the array object are incompatible with its range type.
+# Error: COMP96_0305: register32.vhd : (37, 19): Cannot find function "to_integer" for these actuals.
+# Error: COMP96_0138: register32.vhd : (37, 19): The index types in the reference to the array object are incompatible with its range type.
+# Compile failure 6 Errors 1 Warnings  Analysis time :  15.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `behavioral' of entity `Reg.register32' is not up-to-date. Please recompile file `d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd'.
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Warning: COMP96_0119: register32.vhd : (19, 19): The range is 'null range'.
+# Error: COMP96_0149: register32.vhd : (28, 29): Explicit type conversions are allowed between closely related types only.
+# Compile failure 1 Errors 1 Warnings  Analysis time :  16.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `behavioral' of entity `Reg.register32' is not up-to-date. Please recompile file `d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd'.
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Warning: COMP96_0119: register32.vhd : (19, 19): The range is 'null range'.
+# Error: COMP96_0149: register32.vhd : (28, 29): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0367: register32.vhd : (28, 37): Improper array length (72). Expected length is 32.
+# Compile failure 2 Errors 1 Warnings  Analysis time :  15.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `behavioral' of entity `Reg.register32' is not up-to-date. Please recompile file `d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd'.
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Warning: COMP96_0119: register32.vhd : (19, 19): The range is 'null range'.
+# Error: COMP96_0149: register32.vhd : (28, 29): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0367: register32.vhd : (28, 37): Improper array length (128). Expected length is 32.
+# Compile failure 2 Errors 1 Warnings  Analysis time :  15.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `behavioral' of entity `Reg.register32' is not up-to-date. Please recompile file `d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd'.
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Warning: COMP96_0119: register32.vhd : (19, 19): The range is 'null range'.
+# Error: COMP96_0149: register32.vhd : (28, 29): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0367: register32.vhd : (28, 37): Improper array length (124). Expected length is 32.
+# Compile failure 2 Errors 1 Warnings  Analysis time :  16.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `behavioral' of entity `Reg.register32' is not up-to-date. Please recompile file `d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd'.
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Warning: COMP96_0119: register32.vhd : (19, 19): The range is 'null range'.
+# Error: COMP96_0149: register32.vhd : (28, 29): Explicit type conversions are allowed between closely related types only.
+# Error: COMP96_0367: register32.vhd : (28, 37): Improper array length (31). Expected length is 32.
+# Compile failure 2 Errors 1 Warnings  Analysis time :  15.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `behavioral' of entity `Reg.register32' is not up-to-date. Please recompile file `d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd'.
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Warning: COMP96_0119: register32.vhd : (19, 19): The range is 'null range'.
+# Error: COMP96_0149: register32.vhd : (28, 29): Explicit type conversions are allowed between closely related types only.
+# Compile failure 1 Errors 1 Warnings  Analysis time :  16.0 [ms]
+# ULM: Warning: ULM_0021 Architecture `behavioral' of entity `Reg.register32' is not up-to-date. Please recompile file `d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd'.
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Warning: COMP96_0119: register32.vhd : (19, 19): The range is 'null range'.
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Warning: COMP96_0119: register32.vhd : (19, 19): The range is 'null range'.
+# Compile success 0 Errors 1 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Error: COMP96_0078: register32_TB.vhd : (61, 5): Unknown identifier "B".
+# Error: COMP96_0133: register32_TB.vhd : (61, 5): Cannot find object declaration.
+# Error: COMP96_0078: register32_TB.vhd : (67, 5): Unknown identifier "B".
+# Error: COMP96_0133: register32_TB.vhd : (67, 5): Cannot find object declaration.
+# Error: COMP96_0367: register32_TB.vhd : (71, 20): Improper array length (5). Expected length is 6.
+# Error: COMP96_0367: register32_TB.vhd : (72, 17): Improper array length (5). Expected length is 6.
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Error: COMP96_0209: register32_TB.vhd : (81, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Error: COMP96_0367: register32_TB.vhd : (61, 17): Improper array length (5). Expected length is 6.
+# Error: COMP96_0367: register32_TB.vhd : (67, 17): Improper array length (5). Expected length is 6.
+# Error: COMP96_0367: register32_TB.vhd : (71, 20): Improper array length (5). Expected length is 6.
+# Error: COMP96_0367: register32_TB.vhd : (72, 17): Improper array length (5). Expected length is 6.
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Error: COMP96_0209: register32_TB.vhd : (81, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Warning: COMP96_0119: register32.vhd : (19, 19): The range is 'null range'.
+# Compile success 0 Errors 1 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Error: ELAB1_0028: register32_TB.vhd : (42, 0): Entity port length is 5. readReg1 length is 6.
+# Error: ELAB1_0028: register32_TB.vhd : (42, 0): Entity port length is 5. readReg2 length is 6.
+# Error: ELAB1_0028: register32_TB.vhd : (42, 0): Entity port length is 5. writeReg length is 6.
+# Error: COMP96_0367: register32_TB.vhd : (61, 17): Improper array length (5). Expected length is 6.
+# Error: COMP96_0367: register32_TB.vhd : (67, 17): Improper array length (5). Expected length is 6.
+# Error: COMP96_0367: register32_TB.vhd : (71, 20): Improper array length (5). Expected length is 6.
+# Error: COMP96_0367: register32_TB.vhd : (72, 17): Improper array length (5). Expected length is 6.
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Error: COMP96_0209: register32_TB.vhd : (81, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+register32_tb register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Fatal Error: ELAB2_0013 register32.vhd (20): Index 0 is out of range (0 downto 31) of "cell".
+# ELAB2: Last instance before error: /register32_tb/UUT
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# Error: Fatal error occurred during simulation initialization.
+asim -O5 +access +r +m+register32_tb register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5921 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  3:49 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+run 500 ns
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5921 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  3:49 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 500 ns
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5921 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  3:50 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 500 ns
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5921 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  3:50 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+register32_tb register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5921 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  3:50 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+register32_tb register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5921 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  3:50 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+run 500 ns
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6177 kB (elbread=1023 elab2=5060 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  3:52 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+register32_tb register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6177 kB (elbread=1023 elab2=5060 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  3:52 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+register32_tb register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5921 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  3:52 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+register32_tb register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5921 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  3:52 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+# Waveform file 'untitled.awc' connected to 'd:/fucking uni/Fucking_CA_Lab/sh/Reg/Reg/src/wave.asdb'.
+# add wave -noreg {/register32_tb/data}
+# add wave -noreg {/register32_tb/readReg1}
+# add wave -noreg {/register32_tb/readReg2}
+# add wave -noreg {/register32_tb/writeReg}
+# add wave -noreg {/register32_tb/RegWrite}
+# add wave -noreg {/register32_tb/clr}
+# add wave -noreg {/register32_tb/clk}
+# add wave -noreg {/register32_tb/read1}
+# add wave -noreg {/register32_tb/read2}
+# 9 signal(s) traced.
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+register32_tb register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5921 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  3:53 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+# Waveform file 'untitled.awc' connected to 'd:/fucking uni/Fucking_CA_Lab/sh/Reg/Reg/src/wave.asdb'.
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+# add wave -noreg {/register32_tb/data}
+# add wave -noreg {/register32_tb/readReg1}
+# add wave -noreg {/register32_tb/readReg2}
+# add wave -noreg {/register32_tb/writeReg}
+# add wave -noreg {/register32_tb/RegWrite}
+# add wave -noreg {/register32_tb/clr}
+# add wave -noreg {/register32_tb/clk}
+# add wave -noreg {/register32_tb/read1}
+# add wave -noreg {/register32_tb/read2}
+# 9 signal(s) traced.
+run 500 ns
+# KERNEL: stopped at time: 1 us
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+register32_tb register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5921 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  3:54 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+# Waveform file 'untitled.awc' connected to 'd:/fucking uni/Fucking_CA_Lab/sh/Reg/Reg/src/wave.asdb'.
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+# add wave -noreg {/register32_tb/data}
+# add wave -noreg {/register32_tb/readReg1}
+# add wave -noreg {/register32_tb/readReg2}
+# add wave -noreg {/register32_tb/writeReg}
+# add wave -noreg {/register32_tb/RegWrite}
+# add wave -noreg {/register32_tb/clr}
+# add wave -noreg {/register32_tb/clk}
+# add wave -noreg {/register32_tb/read1}
+# add wave -noreg {/register32_tb/read2}
+# 9 signal(s) traced.
+endsim
+#  Simulation has been stopped
+# add wave -noreg {/register32_tb/data}
+# add wave -noreg {/register32_tb/readReg1}
+# add wave -noreg {/register32_tb/readReg2}
+# add wave -noreg {/register32_tb/writeReg}
+# add wave -noreg {/register32_tb/RegWrite}
+# add wave -noreg {/register32_tb/clr}
+# add wave -noreg {/register32_tb/clk}
+# add wave -noreg {/register32_tb/read1}
+# add wave -noreg {/register32_tb/read2}
+asim -O5 +access +r +m+register32_tb register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5921 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  3:54 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+# Waveform file 'untitled.awc' connected to 'd:/fucking uni/Fucking_CA_Lab/sh/Reg/Reg/src/wave.asdb'.
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+register32_tb register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5922 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  3:56 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+# Waveform file 'untitled.awc' connected to 'd:/fucking uni/Fucking_CA_Lab/sh/Reg/Reg/src/wave.asdb'.
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+register32_tb register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5922 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  3:57 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+# Waveform file 'untitled.awc' connected to 'd:/fucking uni/Fucking_CA_Lab/sh/Reg/Reg/src/wave.asdb'.
+run 600 ns
+# KERNEL: stopped at time: 600 ns
+endsim
+#  Simulation has been stopped
+acom -O3 -work Reg -2002  $dsn/src/register32.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\register32.vhd
+# Compile Entity "register32"
+# Compile Architecture "Behavioral" of Entity "register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+asim -O5 +access +r +m+register32_tb register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5922 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+# KERNEL: ASDB file was created in location d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\wave.asdb
+#  4:04 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+# Waveform file 'untitled.awc' connected to 'd:/fucking uni/Fucking_CA_Lab/sh/Reg/Reg/src/wave.asdb'.
+run 600 ns
+# KERNEL: stopped at time: 600 ns
+# add wave -noreg {/register32_tb/UUT/cell}
+# add wave -noreg {/register32_tb/UUT/data}
+# add wave -noreg {/register32_tb/UUT/readReg1}
+# add wave -noreg {/register32_tb/UUT/readReg2}
+# add wave -noreg {/register32_tb/UUT/writeReg}
+# add wave -noreg {/register32_tb/UUT/RegWrite}
+# add wave -noreg {/register32_tb/UUT/clr}
+# add wave -noreg {/register32_tb/UUT/clk}
+# add wave -noreg {/register32_tb/UUT/read1}
+# add wave -noreg {/register32_tb/UUT/read2}
+# 10 signal(s) traced.
+endsim
+#  Simulation has been stopped
+# add wave -noreg {/register32_tb/data}
+# add wave -noreg {/register32_tb/readReg1}
+# add wave -noreg {/register32_tb/readReg2}
+# add wave -noreg {/register32_tb/writeReg}
+# add wave -noreg {/register32_tb/RegWrite}
+# add wave -noreg {/register32_tb/clr}
+# add wave -noreg {/register32_tb/clk}
+# add wave -noreg {/register32_tb/read1}
+# add wave -noreg {/register32_tb/read2}
+asim +access +w_nets +accb +accr +access +r +access +r+w register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5922 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+#  4:08 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 600 ns
+# KERNEL: stopped at time: 600 ns
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Error: COMP96_0015: register32_TB.vhd : (27, 49): ';' expected.
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Error: COMP96_0015: register32_TB.vhd : (27, 49): ';' expected.
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Error: COMP96_0367: register32_TB.vhd : (27, 52): Improper array length (20). Expected length is 5.
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+endsim
+#  Simulation has been stopped
+asim +access +w_nets +accb +accr +access +r +access +r+w register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5922 kB (elbread=1023 elab2=4805 kernel=92 sdf=0)
+#  4:11 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 600 ns
+# KERNEL: stopped at time: 600 ns
+endsim
+#  Simulation has been stopped
+asim +access +w_nets +accb +accr +access +r +access +r+w register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6177 kB (elbread=1023 elab2=5061 kernel=92 sdf=0)
+#  4:12 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 600 ns
+# KERNEL: stopped at time: 600 ns
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+endsim
+#  Simulation has been stopped
+asim +access +w_nets +accb +accr +access +r +access +r+w register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6177 kB (elbread=1023 elab2=5061 kernel=92 sdf=0)
+#  4:14 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 600 ns
+# KERNEL: stopped at time: 600 ns
+run 600 ns
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6177 kB (elbread=1023 elab2=5061 kernel=92 sdf=0)
+#  4:15 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+endsim
+#  Simulation has been stopped
+asim +access +w_nets +accb +accr +access +r +access +r+w register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6177 kB (elbread=1023 elab2=5061 kernel=92 sdf=0)
+#  4:16 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 600 ns
+# KERNEL: stopped at time: 600 ns
+endsim
+#  Simulation has been stopped
+asim +access +w_nets +accb +accr +access +r +access +r+w register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6177 kB (elbread=1023 elab2=5061 kernel=92 sdf=0)
+#  4:17 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 600 ns
+# KERNEL: stopped at time: 600 ns
+endsim
+#  Simulation has been stopped
+asim +access +w_nets +accb +accr +access +r +access +r+w register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6177 kB (elbread=1023 elab2=5061 kernel=92 sdf=0)
+#  4:24 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 600 ns
+# KERNEL: stopped at time: 600 ns
+run 600 ns
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6177 kB (elbread=1023 elab2=5061 kernel=92 sdf=0)
+#  4:25 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+endsim
+#  Simulation has been stopped
+asim +access +w_nets +accb +accr +access +r +access +r+w register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom -O3 -work Reg -2002  $dsn/src/TestBench/register32_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd
+# Compile Entity "register32_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"
+# Compile Configuration "TESTBENCH_FOR_register32"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6177 kB (elbread=1023 elab2=5061 kernel=92 sdf=0)
+#  4:25 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 600 ns
+# KERNEL: stopped at time: 600 ns
+run 600 ns
+# KERNEL: stopped at time: 1200 ns
+endsim
+#  Simulation has been stopped
+asim +access +w_nets +accb +accr +access +r +access +r+w register32_tb TB_ARCHITECTURE
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6177 kB (elbread=1023 elab2=5061 kernel=92 sdf=0)
+#  4:26 AM, Wednesday, December 16, 2020
+#  Simulation has been initialized
+#  Selected Top-Level: register32_tb (TB_ARCHITECTURE)
+run 600 ns
+# KERNEL: stopped at time: 600 ns
+#  Simulation has been stopped

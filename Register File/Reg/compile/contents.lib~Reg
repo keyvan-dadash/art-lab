@@ -1,0 +1,6 @@
+179
+~E 1 "./../src/register32.vhd" 5 register32
+~A 1 "./../src/register32.vhd" 18 Behavioral
+~E 1 "./../src/TestBench/register32_TB.vhd" 7 register32_tb
+~A 1 "./../src/TestBench/register32_TB.vhd" 10 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/register32_TB.vhd" 83 testbench_for_register32

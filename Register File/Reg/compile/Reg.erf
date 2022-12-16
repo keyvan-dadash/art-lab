@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd" 
+MESSAGE "Compile Entity "register32_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "register32_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_register32"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 

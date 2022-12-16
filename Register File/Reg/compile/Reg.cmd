@@ -1,0 +1,1 @@
+-w -s "d:\fucking uni\Fucking_CA_Lab\sh\Reg\library.cfg"  -j "d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\projlib.cfg"  -d "d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\compile"   -work Reg  -O3 -e 100 -2002 "d:\fucking uni\Fucking_CA_Lab\sh\Reg\Reg\src\TestBench\register32_TB.vhd"
