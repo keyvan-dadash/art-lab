@@ -1,0 +1,36 @@
+Active-HDL 9.2.2499.sp1.36.4586  2020-11-23 09:56:50
+
+Elaboration top modules:
+Architecture                  TB_ARCHITECTURE(full_adder_behavioral_vhdl_tb)
+
+
+--------------------------------------------------------------------------------------------------------------------------
+Entity                        | Architecture    | Library  | Info | Compiler Version                | Compilation Options
+--------------------------------------------------------------------------------------------------------------------------
+full_adder_behavioral_vhdl_tb | TB_ARCHITECTURE | fu_adder |      | 9.2.2499.sp1.36.4586  (Windows) | -O3
+Full_Adder_Behavioral_VHDL    | behavioral      | fu_adder |      | 9.2.2499.sp1.36.4586  (Windows) | -O3
+--------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------
+VHDL Package                                    | Library  | Info | Compiler Version                | Compilation Options
+--------------------------------------------------------------------------------------------------------------------------
+standard                                        | std      |      |                                 | <unavailable>
+TEXTIO                                          | std      |      | 9.2.2499.sp1.36.4586  (Windows) |  -2008
+std_logic_1164                                  | ieee     |      | 9.2.2499.sp1.36.4586  (Windows) |  -2008
+std_logic_arith                                 | ieee     |      | 9.2.2499.sp1.36.4586  (Windows) | 
+STD_LOGIC_UNSIGNED                              | ieee     |      | 9.2.2499.sp1.36.4586  (Windows) | 
+STD_LOGIC_TEXTIO                                | ieee     |      | 9.2.2499.sp1.36.4586  (Windows) | 
+NUMERIC_STD                                     | ieee     |      | 9.2.2499.sp1.36.4586  (Windows) |  -2008
+--------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------
+Library                                         | Comment
+--------------------------------------------------------------------------------------------------------------------------
+fu_adder                                        | None
+ieee                                            | Standard IEEE packages library
+std                                             | Standard VHDL library
+--------------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+full_adder_behavioral_vhdl_tb full_adder_behavioral_vhdl_tb TB_ARCHITECTURE
+

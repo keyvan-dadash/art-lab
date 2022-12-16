@@ -1,0 +1,46 @@
+timestamp=1606153970115
+
+[full_adder_behavioral_vhdl]
+A/behavioral=A/Behavioral 21|./../src/full_adder.vhd|13|1*49734
+BinI32/behavioral=3*15297
+I=0*786
+I/behavioral=I/Behavioral 0*22928
+M=11|0|va7|1606151179028|./../src/full_adder.vhd|0*291*0xa51bf1b2aba9bb7858027d79d90d9e0260203792|0*686*0xab32bc1a2daf049573e14469f634e0e6
+M/behavioral=M/Behavioral 21|0|va7|1606153969925|./../src/full_adder.vhd|0*22241*0xdee2638661a998f963be5456737a5e259000a108|0*22814*0xb33770ff1c10522f9491560174ac8e6c
+R=./../src/full_adder.vhd|5
+Version=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavioral=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+
+[full_adder_behavioral_vhdl_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/AldecTB/full_adder_behavioral_vhdl_TB.vhd|12|1*46120
+BinI32/tb_architecture=3*14625
+I=0*2596
+I/tb_architecture=I/TB_ARCHITECTURE 0*24520
+M=11|0|va7|1606151327279|./../src/AldecTB/full_adder_behavioral_vhdl_TB.vhd|0*2102*0x09151bbe79666921d1804d20f2c6fa661e0cb447|0*2466*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|va7|1606153674924|./../src/AldecTB/full_adder_behavioral_vhdl_TB.vhd|0*23189*0x518d9aa5c9d8b4afd5a93dac5d3a979b939942f2|0*24371*0xb33770ff1c10522f9491560174ac8e6c
+R=./../src/AldecTB/full_adder_behavioral_vhdl_TB.vhd|9
+Version=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+Version/tb_architecture=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+
+[testbench_for_full_adder_behavioral_vhdl]
+Configures=full_adder_behavioral_vhdl_tb.TB_ARCHITECTURE
+E=1*49132
+I=0*5374
+M=2|0|va7|1606153674933|./../src/AldecTB/full_adder_behavioral_vhdl_TB.vhd|0*4772*0x94acde29aaacb6c7bcb2c4e8489094ed2518fcbd|0*5201*0xb33770ff1c10522f9491560174ac8e6c
+R=./../src/AldecTB/full_adder_behavioral_vhdl_TB.vhd|83
+Version=9.2.2499.sp1.36.4586  (Windows)|00000003789cd3f5370600015b00b0
+
+[~A]
+ModifyID=116
+Version=73
+
+[~MFT]
+0=100|0fu_adder.mgf|24520|19136
+1=50|1fu_adder.mgf|49734|46120
+3=33|3fu_adder.mgf|15297|14625
+
+[~U]
+full_adder_behavioral_vhdl=Full_Adder_Behavioral_VHDL 11|0*0|
+full_adder_behavioral_vhdl_tb=11|0*1969|
+testbench_for_full_adder_behavioral_vhdl=TESTBENCH_FOR_full_adder_behavioral_vhdl 2||
+

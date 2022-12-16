@@ -1,0 +1,58 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=fu_adder
+
+[Library]
+fu_adder=.\fu_adder\fu_adder.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+fu_adder=.
+Active_lib=
+
+[Groups]
+AldecTB=1
+
+[HierarchyViewer]
+HierarchyInformation=full_adder_behavioral_vhdl_tb|TB_ARCHITECTURE|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/full_adder.vhd=-1
+/..\..\untitled.awc=-1
+AldecTB/full_adder_behavioral_vhdl_TB.vhd=-1
+AldecTB/full_adder_behavioral_vhdl_TB_runtest.do=-1
+
+[Files.Data]
+.\src\full_adder.vhd=VHDL Source Code
+.\..\untitled.awc=Accelerated Waveform Configuration
+.\src\AldecTB\full_adder_behavioral_vhdl_TB.vhd=VHDL Test Bench
+.\src\AldecTB\full_adder_behavioral_vhdl_TB_runtest.do=Macro
+

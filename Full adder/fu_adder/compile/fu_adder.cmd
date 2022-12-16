@@ -1,0 +1,1 @@
+-w -s "D:\fucking uni\Fucking_CA_Lab\sh\full_adder\library.cfg"  -j "D:\fucking uni\Fucking_CA_Lab\sh\full_adder\fu_adder\projlib.cfg"  -d "D:\fucking uni\Fucking_CA_Lab\sh\full_adder\fu_adder\compile"   -work fu_adder  -O3 -e 100 -2002 "D:\fucking uni\Fucking_CA_Lab\sh\full_adder\fu_adder\src\full_adder.vhd"

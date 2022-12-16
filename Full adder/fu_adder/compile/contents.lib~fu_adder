@@ -1,0 +1,6 @@
+116
+~E 1 "./../src/full_adder.vhd" 5 Full_Adder_Behavioral_VHDL
+~A 1 "./../src/full_adder.vhd" 13 Behavioral
+~E 1 "./../src/AldecTB/full_adder_behavioral_vhdl_TB.vhd" 9 full_adder_behavioral_vhdl_tb
+~A 1 "./../src/AldecTB/full_adder_behavioral_vhdl_TB.vhd" 12 TB_ARCHITECTURE
+~C 1 "./../src/AldecTB/full_adder_behavioral_vhdl_TB.vhd" 83 testbench_for_full_adder_behavioral_vhdl
